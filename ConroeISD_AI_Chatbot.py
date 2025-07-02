@@ -59,7 +59,7 @@ const ConroeISDChatbot = () => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer YOUR_OPENAI_API_KEY`,
+        Authorization: `Bearer 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`,
       },
       body: JSON.stringify({
         model: "gpt-4",
